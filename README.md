@@ -12,6 +12,6 @@ Command: Install-Module PSWriteHTML -Confirm:$false -AllowClobber
 #CodeSigning Folder
 Contains a Code Signing Script that will start at a top level directory, grabs a Code Signing cert from your local user certificate repository and will sign all of the scripts in that folder, subfolders.
 
-#OpenSSL Folder
+#OpenSSL3.0 Folder
 Contains a Script and does Common Open SSL Tasks, Requires AnyBox Module
 Command: Install-Module AnyBox -Confirm:$false -AllowClobber
