@@ -108,9 +108,9 @@ if ((Get-ChildItem -Path 'C:\Program Files\OpenSSL-Win64\bin' | Select-Object -E
                                         "",
                                         "[ req_distinguished_name ]",
                                         "countryName = US",
-                                        "stateOrProvinceName = Indiana",
-                                        "localityName = Lafayette",
-                                        "0.organizationName = SIA",
+                                        "stateOrProvinceName = State",
+                                        "localityName = City",
+                                        "0.organizationName = OrgName",
                                         "organizationalUnitName = IT",
                                         "commonName = $($csrselect['commonname'])"
                         
